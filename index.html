@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- Bootstrap JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+        crossorigin="anonymous"></script>
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+    <title>Adventure Kyle</title>
+</head>
+
+<body>
+    <!--DESIGN NOTE: As a intentional design choice, I justified the NavBar across the page.-->
+    <nav class="navbar navbar-expand-lg my-5">
+        <div class="container">
+            <a class="navbar-brand d-flex flex-grow-1 align-items-center" href="#">
+                <div id="adventure">adventure</div><img src="assets/bi_lightning-charge-fill.svg" alt="lightning bolt">
+                <div id="kyle">kyle</div>
+            </a>
+            <div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav d-flex align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <!--DESIGN NOTE: I have set the background color for this element in the CSS file.  As a intentional design choice, it is the same as the body background.-->
+        <div class="container my-5" id="intro">
+            <div class="row g-5">
+                <div class="col-md-6 order-2 order-md-1">
+                    <h1 id="myName">Kyle Pennington</h1>
+                    <h3 id="myTitle">Professional Adventurist</h3>
+                    <div>
+                        <p>
+                            There is nothing Kyle loves more that a good adventure. Whether he's climbing Mt. Everest or
+                            trekking through the Amazon rainforest, he's always up for an epic challenge. He's also an
+                            expert in a wide range of outdoor activities, from mountain biking to whitewater rafting. In
+                            fact, there's not much that Kyle doesn't-know about the great outdoors.
+                        </p>
+                        <p>
+                            Despite all his adventures, Kyle remains humble and down-to-earth. He loves spending time
+                            with his family and friends, and he's always quick to lend a helping hand. Whether you're
+                            looking for someone to go on an adventure with or just need some advice on getting outside,
+                            Kyle is the perfect person to ask.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-md-6 order-1 order-md-2">
+                    <img src="assets/profile.png" class="img-fluid img-lg" alt="Profile Photo">
+                </div>
+            </div>
+        </div>
+        <!-- DESIGN NOTE: I have set the border for the resume items in the CSS file. As a intentional design choice, it is the same color as the body, except for when in a hover state where it changes to the navy blue color.-->
+        <div class="container text-center">
+            <div class="row my-5 g-5">
+                <div class="col-md-6 col-lg-4">
+                    <img src="assets/technical-skills.png" class="img-fluid img-sm" alt="Soft Skills">
+                    <div>
+                        <h2 class="resume-title">Technical Skills</h2>
+                        <h3 class="resume-item">Rock Climbing</h3>
+                        <h3 class="resume-item">Scuba Certified</h3>
+                        <h3 class="resume-item">Sky Diving</h3>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <img src="assets/soft-skills.png" class="img-fluid img-sm" alt="Soft Skills">
+                    <div>
+                        <h2 class="resume-title">Soft Skills</h2>
+                        <h3 class="resume-item">Helpful Hands</h3>
+                        <h3 class="resume-item">Faithful Companion</h3>
+                        <h3 class="resume-item">Cheerful Motivator</h3>
+                        <h3 class="resume-item">Engaging Storyteller</h3>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <img src="assets/hobbies.png" class="img-fluid img-sm" alt="Soft Skills">
+                    <div>
+                        <h2 class="resume-title">Hobbies</h2>
+                        <h3 class="resume-item">Surfing</h3>
+                        <h3 class="resume-item">Free Diving</h3>
+                        <h3 class="resume-item">Backpacking</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container wisdom-box">
+            <div class="row my-5 p-md-0 d-flex lg-justify-content-between">
+                <div class="col col-lg-8 p-5">
+                    <div>
+                        <h1>Daily Dose of Wisdom</h1>
+                        <h3 id="today">Todays Date</h3>
+                    </div>
+                    <p id="wisdom"></p>
+                    <button type="button" class="btn btn-primary" onclick="getWisdom()">More Wisdom</button>
+                </div>
+                <div class="col col-lg-4 p-0 d-none d-lg-flex justify-content-end align-content-start" id="sunLogo">
+                    <img src="assets/sun.svg" class="img-fluid p-0 sun-icon lg-visable" alt="sun icon">
+                </div>
+            </div>
+
+        </div>
+
+
+    </main>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col d-flex align-items-center">
+                    <p class="pe-4">Created by Jeff Ordway Designs</p>
+                    <div class="d-flex align-items-center github-link" id="githubLink">
+                        <img src="assets/akar-icons_github-fill.svg" alt="Git Hub Logo" id="githubLogo">
+                        <a href="https://github.com/jeffordway" target="_blank" id="githubText" class="p-2">My
+                            GitHub</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+
+</html>

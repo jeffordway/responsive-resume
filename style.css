@@ -1,0 +1,144 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #5E656B;
+    background-color: #faffff
+}
+
+.nav-link {
+    font-size: 1.25rem;
+    margin: .5rem;
+    padding: 1rem 0rem;
+    font-weight: 300;
+    color: #5E656B;
+    border-bottom: .125rem solid #faffff;
+}
+
+.nav-link:hover {
+    color: #003566;
+    border-bottom: .125rem solid #F5CC00;
+
+}
+
+#intro {
+    background-color: #faffff;
+}
+
+.img-lg {
+    border-radius: 2rem;
+    box-shadow: 4px 4px 20px rgba(94, 101, 107, 0.40);
+}
+
+.img-sm {
+    border-radius: 1.5rem;
+    box-shadow: 4px 4px 20px rgba(94, 101, 107, 0.40);
+}
+
+h1 {
+    font-size: 3rem;
+    color: #003566;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 2.25rem;
+    color: #003566;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #5E656B;
+    font-weight: 300;
+}
+
+p {
+    font-size: 1.125rem;
+    font-weight: 300;
+    margin-top: 1rem;
+}
+
+.resume-title {
+    padding: 1rem;
+}
+
+.resume-item {
+    padding: .5rem;
+    border: .125rem solid #faffff;
+    border-radius: 1rem
+}
+
+.resume-item:hover {
+    color: #003566;
+    background-color: #F5CC00;
+    border: .125rem solid #003566;
+}
+
+.wisdom-box {
+    background-color: #F1F4F7;
+    box-sizing: border-box;
+    border-radius: 2rem;
+    box-shadow: 4px 4px 20px rgba(94, 101, 107, 0.40);
+}
+
+.wisdom {
+    margin-right: 0;
+    padding: 0
+}
+
+.btn-primary {
+    background-color: #003566;
+    border-color: #003566;
+}
+
+.btn-primary:hover {
+    color: #003566;
+    background-color: #F5CC00;
+    border-color: #F5CC00;
+}
+
+footer {
+    color: white;
+    background-color: #003566;
+}
+
+#githubLogo {
+    width: 28px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: 300;
+    padding-top: 1rem;
+}
+
+
+#adventure {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #003566;
+
+}
+
+#kyle {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2rem;
+    color: #003566;
+}
+
+.sun-icon {
+    width: 100%;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    border-radius: 2rem;
+    ;
+}
